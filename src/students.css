@@ -1,0 +1,16 @@
+/* Cards scaling animation on hover */
+.card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+/* Disable hover animation on small screens */
+@media (max-width: 768px) {
+    .card:hover {
+      transform: none;
+      cursor: default;
+    }
+  }
