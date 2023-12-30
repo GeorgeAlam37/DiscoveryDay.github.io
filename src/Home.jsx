@@ -8,6 +8,7 @@ import forwho2 from '../src/assets/forwho2.png'
 import PartnerSlider from './PartnerSlider'
 import Students from './Students'
 import HowItWorks from './how/HowItWorks';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css'
 
@@ -20,6 +21,7 @@ function Home() {
   return (
     <>
     <Navbar />
+
     {/* for who div */}
     <div className="forwho-container">
         <div className="text-side text-center text-md-start mt-md-5">
@@ -38,11 +40,10 @@ function Home() {
           <img
             src={home1}
             alt="home1"
-            className="forwho-image "
+            className="forwho-image"
           />
         </div>
     </div>
-    <hr />
     
 
     <Rabobank />

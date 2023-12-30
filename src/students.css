@@ -1,16 +1,59 @@
-/* Cards scaling animation on hover */
+/* Reset default styles */
+body,
+div,
+p,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+*:focus {
+  outline: none;
+}
+
+/* students.css */
+.mySwiper {
+  width: 100%;
+}
+
+.mySwiper .swiper-slide {
+  background: transparent; /* Set background to transparent */
+}
+
 .card {
-    transition: transform 0.3s ease-in-out;
-  }
+  box-shadow: none; /* Remove box shadow from cards */
+  background: transparent; /* Set background to transparent */
+}
+
+
+/* ScrollIndicator.css */
+.scroll-indicator {
+  position: relative;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.swipe-hint {
   
-  .card:hover {
-    transform: scale(1.1);
-    cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #66d978;
+  font-size: 14px;
+  animation: fadeInOut 2.5s ease-in-out infinite; /* Continuous fade in and out animation */
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0; /* Start and end with opacity 0 */
   }
-/* Disable hover animation on small screens */
-@media (max-width: 768px) {
-    .card:hover {
-      transform: none;
-      cursor: default;
-    }
+  50% {
+    opacity: 1; /* Middle of the animation, opacity 1 */
   }
+}
+

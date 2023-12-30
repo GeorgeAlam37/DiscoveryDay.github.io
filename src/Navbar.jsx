@@ -47,7 +47,7 @@ const Navbar = () => {
               <Link
                 to="/home"
                 style={{ fontSize: '17px', fontWeight: 'bold' }}
-                className="nav-link forwho"
+                className="nav-link"
               >
                 Home<span className="sr-only">(current)</span>
               </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
                 style={{ fontSize: '17px', fontWeight: 'bold' }}
                 className="nav-link forwho"
               >
-                For who<span className="sr-only">(current)</span>
+                Untapp<span className="sr-only">(current)</span>
               </Link>
             </animated.li>
             <animated.li
@@ -74,10 +74,10 @@ const Navbar = () => {
             >
               <Link
                 to="/register"
-                className="btn rounded-pill px-5 ml-4 register"
-                style={{ backgroundColor: '#66d978', fontSize: '17px', fontWeight: 'bold' }}
+                className="btn rounded-pill px-3 ml-4 register"
+                style={{ backgroundColor: '#66d978', fontWeight: 'bold' }}
               >
-                Register Here
+                Register here
               </Link>
             </animated.li>
           </ul>

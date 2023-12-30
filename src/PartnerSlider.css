@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;1,200&display=swap');
+
 /* PartnerSlider.css */ 
 * {
     padding: 0;
@@ -12,25 +14,26 @@
   
   .partner-logos {
     display: flex;
-    animation: scrollAnimation 20s linear infinite; /* Adjust the duration as needed */
+    animation: scrollAnimation 30s linear infinite; /* Adjust the duration as needed */
     white-space: nowrap; /* Prevent logos from wrapping to the next line */
   }
   
   .partner-logo {
-    max-width: 106px;
-    max-height: 74px;
+    max-width: 156px;
+    max-height: 124px;
     margin-right: 170px; /* Adjust the margin as needed for the desired gap */
     flex-shrink: 0; /* Prevent logos from shrinking */
   }
   
   @keyframes scrollAnimation {
     0% {
-      transform: translateX(100%);
+      transform: translate(100%);
     }
     100% {
-      transform: translateX(-100%);
+      transform: translateX(calc(-100% - (170px * 14))); /* Adjust the margin and number of logos */
     }
   }
+  
   
 
   @media only screen and (max-width: 800px) {

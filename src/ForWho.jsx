@@ -33,33 +33,33 @@ function ForWho() {
         </div>
       </div>
 
-      <div className="container-fluid">
+      <div className="container-fluid my-5 ">
         <div className="row">
           {/* Left Side (Image) */}
-          <div className="col-md-6 d-flex align-items-center justify-content-center">
+          <div className="col-md-6 d-flex align-items-center justify-content-center mb-4">
             <img src={forwho2} alt="forwho2" className="img-fluid" />
           </div>
 
           {/* Right Side (Text Information) */}
-          <div className="col-md-6 text-center text-md-start p-5">
+          <div className="col-md-6 text-center text-md-start">
             <h1 className="fw-bold fs-42">For who</h1>
             <h2 className='mb-4 fw-bold fs-38' style={{color: 'lightgreen'}}>We are open to all !</h2>
-            <p className="mt-5 d-flex">
+            <p className=" d-flex">
               <img src={num1} alt="num1" className="mr-4 mb-4" />
               Untappd is open to all; there’s no prior education or degree required. You only need to be over 18 or over.
             </p>
             <hr />
-            <p className="mt-4 d-flex">
+            <p className="d-flex">
               <img src={num2} alt="num2" className="mr-4 mb-4" />
               We have two courses, one for beginners and our Skill Path course that is focused on career development. In both courses, we offer job coaching workshops.
             </p>
             <hr />
-            <p className="mt-4 d-flex">
+            <p className=" d-flex">
               <img src={num3} alt="num3" className="mr-4 mb-4" />
               Through a curated curriculum of interactive games and assignments, you will build your first web page in no time.
             </p>
             <hr />
-            <p className="mt-4 d-flex">
+            <p className=" d-flex">
               <img src={num4} alt="num4" className="mr-4 mb-4" />
               After our course, you will be eligible for numerous internships and job opportunities.
             </p>
@@ -102,23 +102,23 @@ function ForWho() {
 
         {/* Registration Form */}
         <div className="col-lg-5 col-md-12 p-5 form">
-          <h2 className="text-start fw-bold fs-25 mb-4">Register for free</h2>
+          <h2 className="text-start fw-bold fs-25 mb-3">Register for free</h2>
           <form>
-            <div className="mb-3">
+            <div>
               <label htmlFor="name" className="form-label">
     
               </label>
               <input type="text" className="form-control" id="name" placeholder="Enter your name" />
             </div>
 
-            <div className="mb-3">
+            <div>
               <label htmlFor="phone" className="form-label">
       
               </label>
               <input type="tel" className="form-control" id="phone" placeholder="Enter your phone number" />
             </div>
 
-            <div className="mb-3">
+            <div>
               <label htmlFor="email" className="form-label">
         
               </label>

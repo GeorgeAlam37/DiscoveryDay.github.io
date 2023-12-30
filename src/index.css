@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;1,200&display=swap');
 html {
   scroll-behavior: smooth;
 }
@@ -9,10 +8,10 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 100; 
 }
 
@@ -117,3 +116,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+
+/* HomePage.css */
+
+.home-page {
+  height: 100vh;
+  background: url('../src/assets/home1.png') center/cover no-repeat;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the overlay color and opacity */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-text {
+  text-align: center;
+  color: #ffffff; /* Adjust text color */
+}

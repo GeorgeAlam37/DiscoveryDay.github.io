@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;1,200&display=swap');
 
 * {
     padding: 0;
@@ -6,10 +6,10 @@
     box-sizing: border-box;
   }
   body {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
   }
   h1, h2, h3, h4, h5, h6, span {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-weight: 700; 
   }
 
