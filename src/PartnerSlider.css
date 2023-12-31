@@ -14,7 +14,7 @@
   
   .partner-logos {
     display: flex;
-    animation: scrollAnimation 30s linear infinite; /* Adjust the duration as needed */
+    animation: scrollAnimation 20s linear infinite; /* Adjust the duration as needed */
     white-space: nowrap; /* Prevent logos from wrapping to the next line */
   }
   
@@ -30,7 +30,7 @@
       transform: translate(100%);
     }
     100% {
-      transform: translateX(calc(-100% - (170px * 14))); /* Adjust the margin and number of logos */
+      transform: translateX(calc(-100% - (170px * 5))); /* Adjust the margin and number of logos */
     }
   }
   

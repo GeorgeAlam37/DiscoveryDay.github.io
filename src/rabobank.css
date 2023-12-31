@@ -1,0 +1,32 @@
+/* Add this to your CSS file or style tag */
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .carousel-indicators li {
+    width: 12px; /* Increase the width */
+    height: 12px; /* Increase the height */
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #8ced8c; /* White border for better visibility */
+    border-radius: 50%;
+    transition: background-color 0.6s ease;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #56e96e; /* Change the color as needed */
+  }
+  
+  /* Add the following styles to remove default indicators */
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+  

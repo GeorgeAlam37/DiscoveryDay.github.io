@@ -40,35 +40,35 @@ const Register = () => {
         <div className="col-lg-6 col-md-12 p-5 form">
           <h2 className="text-start fw-bold fs-25 mb-4">Register For Discovery Day</h2>
           <form>
-            <div className="mb-3">
+            <div>
               <label htmlFor="name" className="form-label">
-                Name
+                
               </label>
               <input type="text" className="form-control" id="name" placeholder="Enter your name" />
             </div>
 
-            <div className="mb-3">
+            <div>
               <label htmlFor="phone" className="form-label">
-                Phone
+                
               </label>
               <input type="tel" className="form-control" id="phone" placeholder="Enter your phone number" />
             </div>
 
-            <div className="mb-3">
+            <div>
               <label htmlFor="email" className="form-label">
-                E-mail
+              
               </label>
               <input type="email" className="form-control" id="email" placeholder="Enter your email" />
             </div>
 
-            <div className="mb-3">
+            <div className="mb-4">
               <label htmlFor="birthdate" className="form-label">
-                Birth date
+                 
               </label>
               <input type="date" className="form-control" id="birthdate" />
             </div>
 
-            <div className="mb-3 form-check">
+            <div className="mb-4 form-check">
               <input type="checkbox" className="form-check-input" id="acceptTerms" />
               <label className="form-check-label ml-3" htmlFor="acceptTerms">
                 Accept terms and conditions

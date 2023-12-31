@@ -6,17 +6,9 @@ import partner2 from '../src/assets/partner2.png';
 import partner3 from '../src/assets/partner3.png';
 import partner4 from '../src/assets/partner4.png';
 import partner5 from '../src/assets/partner5.png';
-import partner6 from '../src/assets/partner6.png';
-import partner7 from '../src/assets/partner7.png';
-import partner8 from '../src/assets/partner8.png';
-import partner9 from '../src/assets/partner9.png';
-import partner10 from '../src/assets/partner10.png';
-import partner11 from '../src/assets/partner11.png';
-import partner12 from '../src/assets/partner12.png';
-import partner13 from '../src/assets/partner13.png';
-import partner14 from '../src/assets/partner14.png';
 
-const partners = [partner1, partner2, partner3, partner4, partner5, partner6, partner7, partner8, partner9, partner10, partner11, partner12, partner13, partner14];
+
+const partners = [partner1, partner2, partner3, partner4, partner5];
 
 const PartnerSlider = () => {
   return (

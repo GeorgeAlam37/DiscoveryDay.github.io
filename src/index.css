@@ -39,13 +39,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-side {
   flex: 1;
-  padding: 20px;
   box-sizing: border-box;
 }
 
 .image-side {
   flex: 1;
-  padding: 20px;
 }
 /* for who page */
 .forwho-image {
@@ -57,10 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Home page */
 .kick-start {
-  height: 80vh;
-  padding: 5rem 0;
   background: #c2f0c9;
-  margin-top: 100px;
 }
 
 

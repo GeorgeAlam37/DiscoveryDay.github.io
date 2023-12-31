@@ -30,7 +30,7 @@ const cardsData = [
 
 function Card() {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row p-5 text-center">
         <div className="col">
           <h2 className="fw-bold">We help you with</h2>

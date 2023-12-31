@@ -2,7 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'react-bootstrap';
 
-import './index.css';
+
+import './rabobank.css';
 
 const HorizontalSlideshow = () => {
   return (
@@ -14,6 +15,8 @@ const HorizontalSlideshow = () => {
           margin: '0 auto', // Center the carousel horizontally
         }}
         interval={2000} // Set the interval to 2000 milliseconds (2 seconds)
+        nextIcon={null}
+        prevIcon={null}
 
       >
         <Carousel.Item>
@@ -37,10 +40,12 @@ const HorizontalSlideshow = () => {
             alt="Third slide"
           />
         </Carousel.Item>
-        {/* Add more Carousel.Item as needed */}
+
       </Carousel>
     </div>
   );
 };
 
 export default HorizontalSlideshow;
+
+

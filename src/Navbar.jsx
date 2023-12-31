@@ -21,7 +21,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg">
       <div className="container m-4">
         <Link to="/home">
-          <img className='cursor-pointer ml-md-3' src={logo} alt='logo' />
+          <img className='cursor-pointer ml-md-5' src={logo} alt='logo' />
         </Link>
 
         <button
